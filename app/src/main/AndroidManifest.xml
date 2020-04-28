@@ -12,6 +12,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".Widgets.RatingBar.RatingBar">
+        </activity>
         <activity android:name=".Widgets.CheckBox.CheckBox">
         </activity>
         <activity android:name=".Widgets.RadioButton.RadioButton">
