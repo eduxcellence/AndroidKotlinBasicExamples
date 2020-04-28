@@ -78,5 +78,14 @@
             android:background="@drawable/rectshape"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+    <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/ProgressDemo"
+            android:gravity="center"
+            android:text="9. Progress Bar and Dialog"
+            android:padding="10dp"
+            android:background="@drawable/rectshape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
 </LinearLayout>

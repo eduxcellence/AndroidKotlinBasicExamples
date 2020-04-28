@@ -8,6 +8,7 @@ import source.open.akash.kotlinexample.R
 import source.open.akash.kotlinexample.Widgets.Button.Button
 import source.open.akash.kotlinexample.Widgets.CheckBox.CheckBox
 import source.open.akash.kotlinexample.Widgets.EditText.EditText
+import source.open.akash.kotlinexample.Widgets.ProgressBar.ProgressActivity
 import source.open.akash.kotlinexample.Widgets.RadioButton.RadioButton
 import source.open.akash.kotlinexample.Widgets.RatingBar.RatingBar
 import source.open.akash.kotlinexample.Widgets.Spinner.SpinnerActivity
@@ -51,6 +52,10 @@ class Widgets : AppCompatActivity() {
         }
         SwitchDemo.setOnClickListener {
             val intent = Intent(this, SwitchActivity::class.java)
+            startActivity(intent)
+        }
+        ProgressDemo.setOnClickListener {
+            val intent = Intent(this, ProgressActivity::class.java)
             startActivity(intent)
         }
     }
