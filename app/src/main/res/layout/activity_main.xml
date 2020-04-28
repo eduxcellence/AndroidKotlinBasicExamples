@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        tools:context=".MainActivity">
+    <TableRow android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/WidgetsDemo"
+                android:text="Widgets"
+                android:gravity="center"
+                android:padding="20dp"
+                android:background="@drawable/rectshape"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <View android:layout_height="10dp"
+              android:background="#ffffff"
+              android:layout_width="10dp"/>
+        <TextView
+                android:id="@+id/ToastDemo"
+                android:text="Toast"
+
+                android:gravity="center"
+                android:padding="20dp"
+                android:background="@drawable/rectshape"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="10dp" android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+        <TextView
+
+                android:text="Widgets"
+                android:gravity="center"
+                android:padding="20dp"
+                android:background="@drawable/rectshape"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <View android:layout_height="10dp"
+              android:background="#ffffff"
+              android:layout_width="10dp"/>
+        <TextView
+
+                android:text="Toast"
+
+                android:gravity="center"
+                android:padding="20dp"
+                android:background="@drawable/rectshape"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </TableRow>
+
+</LinearLayout>

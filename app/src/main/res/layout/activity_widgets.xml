@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+                android:id="@+id/TextViewDemo"
+                android:text="1. TextView"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/rectshape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/EditTextDemo"
+                android:gravity="center"
+                android:text="2. EditText"
+                android:padding="10dp"
+                android:background="@drawable/rectshape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/ButtonViewDemo"
+                android:gravity="center"
+                android:text="3. Button"
+                android:padding="10dp"
+                android:background="@drawable/rectshape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/RadioButtonDemo"
+                android:gravity="center"
+                android:text="4. Radio Button"
+                android:padding="10dp"
+                android:background="@drawable/rectshape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/CheckBoxDemo"
+                android:gravity="center"
+                android:text="5. CheckBox"
+                android:padding="10dp"
+                android:background="@drawable/rectshape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+</LinearLayout>

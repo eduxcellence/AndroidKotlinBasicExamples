@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidKotlinBasicExamples</string>
+    <string name="textString">Tutorial is Provided By Eduxcellence</string>
+    <string name="click_me">Click using XML</string>
+    <string name="click_me_2">Click using setOnClickListener in Activity Class</string>
+    <string name="colorAccent">ColorAccent</string>
+    <string name="colorPrimary">ColorPrimary</string>
+    <string name="colorPrimarydark">ColorPrimaryDark</string>
+    <string name="first_cb">First Checkbox</string>
+    <string name="second_cb">Second Checkbox</string>
+    <string name="getCB">Get Checkbox Values</string>
+</resources>
