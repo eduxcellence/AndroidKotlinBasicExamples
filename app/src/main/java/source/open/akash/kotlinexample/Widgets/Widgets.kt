@@ -10,6 +10,7 @@ import source.open.akash.kotlinexample.Widgets.CheckBox.CheckBox
 import source.open.akash.kotlinexample.Widgets.EditText.EditText
 import source.open.akash.kotlinexample.Widgets.RadioButton.RadioButton
 import source.open.akash.kotlinexample.Widgets.RatingBar.RatingBar
+import source.open.akash.kotlinexample.Widgets.Spinner.SpinnerActivity
 import source.open.akash.kotlinexample.Widgets.TextView.TextView
 
 class Widgets : AppCompatActivity() {
@@ -41,6 +42,10 @@ class Widgets : AppCompatActivity() {
         }
         RatingBarDemo.setOnClickListener {
             val intent = Intent(this, RatingBar::class.java)
+            startActivity(intent)
+        }
+        SpinnerDemo.setOnClickListener {
+            val intent = Intent(this, SpinnerActivity::class.java)
             startActivity(intent)
         }
     }
