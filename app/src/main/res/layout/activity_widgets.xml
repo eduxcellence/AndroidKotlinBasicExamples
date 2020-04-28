@@ -69,5 +69,14 @@
             android:background="@drawable/rectshape"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+    <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/SwitchDemo"
+            android:gravity="center"
+            android:text="8. Switch"
+            android:padding="10dp"
+            android:background="@drawable/rectshape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
 </LinearLayout>
