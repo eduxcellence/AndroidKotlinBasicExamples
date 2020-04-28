@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_widgets.*
 import source.open.akash.kotlinexample.R
 import source.open.akash.kotlinexample.Widgets.Button.Button
+import source.open.akash.kotlinexample.Widgets.CheckBox.CheckBox
 import source.open.akash.kotlinexample.Widgets.EditText.EditText
 import source.open.akash.kotlinexample.Widgets.RadioButton.RadioButton
 import source.open.akash.kotlinexample.Widgets.TextView.TextView
@@ -31,6 +32,10 @@ class Widgets : AppCompatActivity() {
         }
         RadioButtonDemo.setOnClickListener {
             val intent = Intent(this, RadioButton::class.java)
+            startActivity(intent)
+        }
+        CheckBoxDemo.setOnClickListener {
+            val intent = Intent(this, CheckBox::class.java)
             startActivity(intent)
         }
     }
