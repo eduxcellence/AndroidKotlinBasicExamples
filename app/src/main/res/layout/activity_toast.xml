@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        tools:context=".Toast.ToastActivity">
+    <TextView android:id="@+id/simpleToastDemo"
+              android:layout_height="wrap_content"
+              android:text="Simple Toast Demo"
+              android:padding="10dp"
+              android:layout_margin="15dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+    <TextView android:id="@+id/customToastDemo"
+              android:layout_height="wrap_content"
+              android:text="Custom Toast Demo"
+              android:padding="10dp"
+              android:layout_margin="15dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+    <TextView android:id="@+id/positioningToastDemo"
+              android:layout_height="wrap_content"
+              android:text="Positioning Toast Demo"
+              android:layout_margin="15dp"
+              android:padding="10dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+    <TextView android:id="@+id/coloredToastDemo"
+              android:layout_height="wrap_content"
+              android:text="Colored Toast Demo"
+              android:layout_margin="15dp"
+              android:padding="10dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+
+
+</LinearLayout>

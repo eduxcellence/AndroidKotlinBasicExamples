@@ -12,6 +12,16 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".Toast.ColoredToast.ColoredToastActivity">
+        </activity>
+        <activity android:name=".Toast.PositioningToast.PositioningToastActivity">
+        </activity>
+        <activity android:name=".Toast.CustomToast.CustomToastActivity">
+        </activity>
+        <activity android:name=".Toast.SimpleToast.SimpleToastActivity">
+        </activity>
+        <activity android:name=".Toast.ToastActivity">
+        </activity>
         <activity android:name=".Widgets.Viewtag.ViewTag">
         </activity>
         <activity android:name=".Widgets.ScrollView.ScrollView">

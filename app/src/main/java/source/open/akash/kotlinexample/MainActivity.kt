@@ -1,9 +1,10 @@
 package source.open.akash.kotlinexample
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import source.open.akash.kotlinexample.Toast.ToastActivity
 import source.open.akash.kotlinexample.Widgets.Widgets
 
 
@@ -20,6 +21,10 @@ class MainActivity : AppCompatActivity() {
          startActivity(Intent(this@MainActivity, Widgets::class.java))
 
      }
+        ToastDemo.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ToastActivity::class.java))
+
+        }
 
     }
 }

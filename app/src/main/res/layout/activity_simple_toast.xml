@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Toast.SimpleToast.SimpleToastActivity">
+
+    <Button
+            android:id="@+id/buttonShortToast"
+            android:layout_width="match_parent"
+            android:onClick="toastClick"
+            android:text="Short Toast"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/buttonLongToast"
+            android:layout_width="match_parent"
+            android:onClick="toastClick"
+            android:text="Long Toast"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
