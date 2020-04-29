@@ -14,6 +14,7 @@ import source.open.akash.kotlinexample.Widgets.MultiAutoCompleteTextView.MultiAu
 import source.open.akash.kotlinexample.Widgets.ProgressBar.ProgressActivity
 import source.open.akash.kotlinexample.Widgets.RadioButton.RadioButton
 import source.open.akash.kotlinexample.Widgets.RatingBar.RatingBar
+import source.open.akash.kotlinexample.Widgets.ScrollView.ScrollView
 import source.open.akash.kotlinexample.Widgets.Spinner.SpinnerActivity
 import source.open.akash.kotlinexample.Widgets.Switch.SwitchActivity
 import source.open.akash.kotlinexample.Widgets.TextSwitcher.TextSwitcher
@@ -81,6 +82,10 @@ class Widgets : AppCompatActivity() {
         }
         ToggleButtonDemo.setOnClickListener {
             val intent = Intent(this, ToggleButton::class.java)
+            startActivity(intent)
+        }
+        ScrollViewDemo.setOnClickListener {
+            val intent = Intent(this, ScrollView::class.java)
             startActivity(intent)
         }
     }

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".Widgets.ScrollView.ScrollView">
+    <TextView
+            android:text="Horizontal Scroll View" android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <TextView
+            android:text="Vertical Scroll View" android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical"
+                      android:gravity="center"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+            <ImageView android:src="@drawable/ic_volume_up_black_24dp"
+                       android:layout_width="100dp"
+                       android:padding="10dp"
+                       android:background="@drawable/rectshape"
+                       android:layout_height="100dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
