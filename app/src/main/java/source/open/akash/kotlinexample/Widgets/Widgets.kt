@@ -5,9 +5,11 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_widgets.*
 import source.open.akash.kotlinexample.R
+import source.open.akash.kotlinexample.Widgets.AutoCompletetextView.AutoCompleteTextView
 import source.open.akash.kotlinexample.Widgets.Button.Button
 import source.open.akash.kotlinexample.Widgets.CheckBox.CheckBox
 import source.open.akash.kotlinexample.Widgets.EditText.EditText
+import source.open.akash.kotlinexample.Widgets.MultiAutoCompleteTextView.MultiAutoCompletetextView
 import source.open.akash.kotlinexample.Widgets.ProgressBar.ProgressActivity
 import source.open.akash.kotlinexample.Widgets.RadioButton.RadioButton
 import source.open.akash.kotlinexample.Widgets.RatingBar.RatingBar
@@ -56,6 +58,14 @@ class Widgets : AppCompatActivity() {
         }
         ProgressDemo.setOnClickListener {
             val intent = Intent(this, ProgressActivity::class.java)
+            startActivity(intent)
+        }
+        AutoCompleteTextViewDemo.setOnClickListener {
+            val intent = Intent(this, AutoCompleteTextView::class.java)
+            startActivity(intent)
+        }
+        MultiAutoCompleteTextViewDemo.setOnClickListener {
+            val intent = Intent(this, MultiAutoCompletetextView::class.java)
             startActivity(intent)
         }
     }
