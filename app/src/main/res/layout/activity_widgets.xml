@@ -6,104 +6,139 @@
         android:orientation="vertical"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <TextView
-                android:id="@+id/TextViewDemo"
-                android:text="1. TextView"
-                android:gravity="center"
-                android:padding="10dp"
-                android:background="@drawable/rectshape"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-        <TextView
-                android:layout_marginTop="10dp"
-                android:id="@+id/EditTextDemo"
-                android:gravity="center"
-                android:text="2. EditText"
-                android:padding="10dp"
-                android:background="@drawable/rectshape"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-    <TextView
-                android:layout_marginTop="10dp"
-                android:id="@+id/ButtonViewDemo"
-                android:gravity="center"
-                android:text="3. Button"
-                android:padding="10dp"
-                android:background="@drawable/rectshape"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-    <TextView
-                android:layout_marginTop="10dp"
-                android:id="@+id/RadioButtonDemo"
-                android:gravity="center"
-                android:text="4. Radio Button"
-                android:padding="10dp"
-                android:background="@drawable/rectshape"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-    <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/CheckBoxDemo"
-            android:gravity="center"
-            android:text="5. CheckBox"
-            android:padding="10dp"
-            android:background="@drawable/rectshape"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/RatingBarDemo"
-            android:gravity="center"
-            android:text="6. RatingBar"
-            android:padding="10dp"
-            android:background="@drawable/rectshape"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/SpinnerDemo"
-            android:gravity="center"
-            android:text="7. Spinner"
-            android:padding="10dp"
-            android:background="@drawable/rectshape"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/SwitchDemo"
-            android:gravity="center"
-            android:text="8. Switch"
-            android:padding="10dp"
-            android:background="@drawable/rectshape"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/ProgressDemo"
-            android:gravity="center"
-            android:text="9. Progress Bar and Dialog"
-            android:padding="10dp"
-            android:background="@drawable/rectshape"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/AutoCompleteTextViewDemo"
-            android:gravity="center"
-            android:text="10. AutoCompleteTextView "
-            android:padding="10dp"
-            android:background="@drawable/rectshape"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/MultiAutoCompleteTextViewDemo"
-            android:gravity="center"
-            android:text="11. MultiAutoCompleteTextView "
-            android:padding="10dp"
-            android:background="@drawable/rectshape"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
 
+
+            <TextView
+                    android:id="@+id/TextViewDemo"
+                    android:text="1. TextView"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/EditTextDemo"
+                    android:gravity="center"
+                    android:text="2. EditText"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ButtonViewDemo"
+                    android:gravity="center"
+                    android:text="3. Button"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/RadioButtonDemo"
+                    android:gravity="center"
+                    android:text="4. Radio Button"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/CheckBoxDemo"
+                    android:gravity="center"
+                    android:text="5. CheckBox"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/RatingBarDemo"
+                    android:gravity="center"
+                    android:text="6. RatingBar"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/SpinnerDemo"
+                    android:gravity="center"
+                    android:text="7. Spinner"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/SwitchDemo"
+                    android:gravity="center"
+                    android:text="8. Switch"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ProgressDemo"
+                    android:gravity="center"
+                    android:text="9. Progress Bar and Dialog"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/AutoCompleteTextViewDemo"
+                    android:gravity="center"
+                    android:text="10. AutoCompleteTextView "
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/MultiAutoCompleteTextViewDemo"
+                    android:gravity="center"
+                    android:text="11. MultiAutoCompleteTextView "
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/TextSwitcherDemo"
+                    android:gravity="center"
+                    android:text="12. TextSwitcher"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/CheckedTextViewDemo"
+                    android:gravity="center"
+                    android:text="13. CheckedTextView"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ToggleButtonDemo"
+                    android:gravity="center"
+                    android:text="14. Toggle Button"
+                    android:padding="10dp"
+                    android:background="@drawable/rectshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

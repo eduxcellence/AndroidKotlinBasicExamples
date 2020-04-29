@@ -12,6 +12,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".Widgets.ToggleButton.ToggleButton">
+        </activity>
+        <activity android:name=".Widgets.CheckedtextView.CheckedTextView">
+        </activity>
+        <activity android:name=".Widgets.TextSwitcher.TextSwitcher">
+        </activity>
         <activity android:name=".Widgets.MultiAutoCompleteTextView.MultiAutoCompletetextView">
         </activity>
         <activity android:name=".Widgets.AutoCompletetextView.AutoCompleteTextView">

@@ -8,6 +8,7 @@ import source.open.akash.kotlinexample.R
 import source.open.akash.kotlinexample.Widgets.AutoCompletetextView.AutoCompleteTextView
 import source.open.akash.kotlinexample.Widgets.Button.Button
 import source.open.akash.kotlinexample.Widgets.CheckBox.CheckBox
+import source.open.akash.kotlinexample.Widgets.CheckedtextView.CheckedTextView
 import source.open.akash.kotlinexample.Widgets.EditText.EditText
 import source.open.akash.kotlinexample.Widgets.MultiAutoCompleteTextView.MultiAutoCompletetextView
 import source.open.akash.kotlinexample.Widgets.ProgressBar.ProgressActivity
@@ -15,7 +16,9 @@ import source.open.akash.kotlinexample.Widgets.RadioButton.RadioButton
 import source.open.akash.kotlinexample.Widgets.RatingBar.RatingBar
 import source.open.akash.kotlinexample.Widgets.Spinner.SpinnerActivity
 import source.open.akash.kotlinexample.Widgets.Switch.SwitchActivity
+import source.open.akash.kotlinexample.Widgets.TextSwitcher.TextSwitcher
 import source.open.akash.kotlinexample.Widgets.TextView.TextView
+import source.open.akash.kotlinexample.Widgets.ToggleButton.ToggleButton
 
 class Widgets : AppCompatActivity() {
 
@@ -66,6 +69,18 @@ class Widgets : AppCompatActivity() {
         }
         MultiAutoCompleteTextViewDemo.setOnClickListener {
             val intent = Intent(this, MultiAutoCompletetextView::class.java)
+            startActivity(intent)
+        }
+        TextSwitcherDemo.setOnClickListener {
+            val intent = Intent(this, TextSwitcher::class.java)
+            startActivity(intent)
+        }
+        CheckedTextViewDemo.setOnClickListener {
+            val intent = Intent(this, CheckedTextView::class.java)
+            startActivity(intent)
+        }
+        ToggleButtonDemo.setOnClickListener {
+            val intent = Intent(this, ToggleButton::class.java)
             startActivity(intent)
         }
     }
