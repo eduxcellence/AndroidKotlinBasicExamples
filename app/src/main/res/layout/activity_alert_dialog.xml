@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AlertDialog.AlertDialogActivity">
+
+    <TextView android:id="@+id/simpleAlertDialogDemo"
+              android:layout_height="wrap_content"
+              android:text="Simple Alert Dialog Demo"
+              android:padding="10dp"
+              android:layout_margin="15dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+    <TextView android:id="@+id/listAlertDialogDemo"
+              android:layout_height="wrap_content"
+              android:text="ListView in Alert Dialog Demo"
+              android:layout_margin="15dp"
+              android:padding="10dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+    <TextView android:id="@+id/editTextAlertDialogDemo"
+              android:layout_height="wrap_content"
+              android:text="EditText in  Alert Dialog"
+              android:layout_margin="15dp"
+              android:padding="10dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+</LinearLayout>

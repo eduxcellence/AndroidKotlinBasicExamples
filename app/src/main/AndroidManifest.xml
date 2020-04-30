@@ -12,6 +12,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".AlertDialog.EditTextInAlertDialog.EditTextAlertDialogActivity">
+        </activity>
+        <activity android:name=".AlertDialog.ListViewInAlertDialog.ListViewAlertDialogActivity">
+        </activity>
+        <activity android:name=".AlertDialog.AlertDialogActivity">
+        </activity>
+        <activity android:name=".AlertDialog.SimpleAlertDialog.SimpleAlertDialogActivity">
+        </activity>
         <activity android:name=".Toast.ColoredToast.ColoredToastActivity">
         </activity>
         <activity android:name=".Toast.PositioningToast.PositioningToastActivity">

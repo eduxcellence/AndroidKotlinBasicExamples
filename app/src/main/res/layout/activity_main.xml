@@ -35,8 +35,8 @@
     <TableRow android:layout_marginTop="10dp" android:layout_width="match_parent"
               android:layout_height="wrap_content">
         <TextView
-
-                android:text="Widgets"
+                android:id="@+id/AlertDialogDemo"
+                android:text="AlertDialog"
                 android:gravity="center"
                 android:padding="20dp"
                 android:background="@drawable/rectshape"
@@ -48,7 +48,7 @@
               android:layout_width="10dp"/>
         <TextView
 
-                android:text="Toast"
+                android:text="Image"
 
                 android:gravity="center"
                 android:padding="20dp"

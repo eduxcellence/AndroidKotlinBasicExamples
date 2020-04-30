@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AlertDialog.ListViewInAlertDialog.ListViewAlertDialogActivity">
+    <Button android:id="@+id/simpleListAlertDialogDemo"
+            android:layout_height="wrap_content"
+            android:text="Simple Single Choice ListView AlertDialog "
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:onClick="alertClick"
+            android:layout_width="wrap_content"/>
+    <Button android:id="@+id/radioListAlertDialogDemo"
+            android:layout_height="wrap_content"
+            android:text="Radio Button  Single Choice ListView AlertDialog"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:onClick="alertClick"
+            android:layout_width="wrap_content"/>
+    <Button android:id="@+id/checkboxAlertDialogDemo"
+            android:layout_height="wrap_content"
+            android:text="CheckBox Multiple Choice ListView AlertDialog"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:onClick="alertClick"
+            android:layout_width="wrap_content"/>
+</LinearLayout>
