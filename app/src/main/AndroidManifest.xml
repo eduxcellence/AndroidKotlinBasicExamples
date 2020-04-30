@@ -12,6 +12,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".Image.ImageSwitcher.ImageswitcherActivity">
+        </activity>
+        <activity android:name=".Image.ImageView.ImageViewActivity">
+        </activity>
+        <activity android:name=".Image.ImageActivity">
+        </activity>
+        <activity android:name=".Image.ImageButton.ImageButtonActivity">
+        </activity>
         <activity android:name=".AlertDialog.EditTextInAlertDialog.EditTextAlertDialogActivity">
         </activity>
         <activity android:name=".AlertDialog.ListViewInAlertDialog.ListViewAlertDialogActivity">

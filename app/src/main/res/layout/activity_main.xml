@@ -47,7 +47,7 @@
               android:background="#ffffff"
               android:layout_width="10dp"/>
         <TextView
-
+                android:id="@+id/ImageActivityDemo"
                 android:text="Image"
 
                 android:gravity="center"

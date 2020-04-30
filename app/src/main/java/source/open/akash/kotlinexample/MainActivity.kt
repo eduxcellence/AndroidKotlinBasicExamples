@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import source.open.akash.kotlinexample.AlertDialog.AlertDialogActivity
+import source.open.akash.kotlinexample.Image.ImageActivity
 import source.open.akash.kotlinexample.Toast.ToastActivity
 import source.open.akash.kotlinexample.Widgets.Widgets
 
@@ -28,6 +29,10 @@ class MainActivity : AppCompatActivity() {
         }
         AlertDialogDemo.setOnClickListener {
             startActivity(Intent(this@MainActivity, AlertDialogActivity::class.java))
+
+        }
+        ImageActivityDemo.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ImageActivity::class.java))
 
         }
 

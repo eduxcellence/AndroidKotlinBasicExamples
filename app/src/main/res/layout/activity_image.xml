@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Image.ImageActivity">
+
+    <TextView android:id="@+id/imageViewDemo"
+              android:layout_height="wrap_content"
+              android:text="ImageView"
+              android:padding="10dp"
+              android:layout_margin="15dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+    <TextView android:id="@+id/imageButtonDemo"
+              android:layout_height="wrap_content"
+              android:text="ImageButton Demo"
+              android:layout_margin="15dp"
+              android:padding="10dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+    <TextView android:id="@+id/imageSwitcherDemo"
+              android:layout_height="wrap_content"
+              android:text="ImageSwitcher Demo"
+              android:layout_margin="15dp"
+              android:padding="10dp"
+              android:background="@drawable/rectshape"
+              android:layout_width="wrap_content"/>
+</LinearLayout>

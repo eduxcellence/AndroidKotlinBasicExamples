@@ -10,13 +10,8 @@ import kotlinx.android.synthetic.main.activity_edit_text_alert_dialog.*
 import source.open.akash.kotlinexample.R
 
 class EditTextAlertDialogActivity : AppCompatActivity() {
-    val positiveButtonClick = { dialog: DialogInterface, which: Int ->
-        Toast.makeText(
-            applicationContext,
-            "Done", Toast.LENGTH_SHORT
-        ).show()
-    }
-    val negativeButtonClick = { dialog: DialogInterface, which: Int ->
+
+    val negativeButtonClick = { _: DialogInterface, which: Int ->
         finish()
     }
 
@@ -34,10 +29,10 @@ class EditTextAlertDialogActivity : AppCompatActivity() {
                 setView(view)
                 setCancelable(false)
                 setPositiveButton("Login") { _, _ ->
-                    if (edtName.text.isNullOrEmpty()) {
+                    if (edtName.text.isNullOrEmpty() && edtPassword.text.isNullOrEmpty()) {
                         Toast.makeText(
                             applicationContext,
-                            "Please Enter Name", Toast.LENGTH_SHORT
+                            "Empty User ID  or Password", Toast.LENGTH_SHORT
                         ).show()
 
                     } else {
