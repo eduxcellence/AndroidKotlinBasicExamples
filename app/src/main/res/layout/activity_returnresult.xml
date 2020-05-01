@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Intent.ExplicitIntentActivity.ReturnresultActivity">
+
+    <EditText
+            android:id="@+id/edtreturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="type some data to return" />
+
+    <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return data to Previous Activity" />
+</LinearLayout>

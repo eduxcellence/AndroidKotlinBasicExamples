@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:dist="http://schemas.android.com/apk/distribution"
-          package="source.open.akash.kotlinexample">
+        xmlns:dist="http://schemas.android.com/apk/distribution"
+        package="source.open.akash.kotlinexample">
 
-    <dist:module dist:instant="true"/>
+    <dist:module dist:instant="true" />
 
     <application
             android:allowBackup="true"
@@ -12,71 +12,48 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Image.ImageSwitcher.ImageswitcherActivity">
-        </activity>
-        <activity android:name=".Image.ImageView.ImageViewActivity">
-        </activity>
-        <activity android:name=".Image.ImageActivity">
-        </activity>
-        <activity android:name=".Image.ImageButton.ImageButtonActivity">
-        </activity>
-        <activity android:name=".AlertDialog.EditTextInAlertDialog.EditTextAlertDialogActivity">
-        </activity>
-        <activity android:name=".AlertDialog.ListViewInAlertDialog.ListViewAlertDialogActivity">
-        </activity>
-        <activity android:name=".AlertDialog.AlertDialogActivity">
-        </activity>
-        <activity android:name=".AlertDialog.SimpleAlertDialog.SimpleAlertDialogActivity">
-        </activity>
-        <activity android:name=".Toast.ColoredToast.ColoredToastActivity">
-        </activity>
-        <activity android:name=".Toast.PositioningToast.PositioningToastActivity">
-        </activity>
-        <activity android:name=".Toast.CustomToast.CustomToastActivity">
-        </activity>
-        <activity android:name=".Toast.SimpleToast.SimpleToastActivity">
-        </activity>
-        <activity android:name=".Toast.ToastActivity">
-        </activity>
-        <activity android:name=".Widgets.Viewtag.ViewTag">
-        </activity>
-        <activity android:name=".Widgets.ScrollView.ScrollView">
-        </activity>
-        <activity android:name=".Widgets.ToggleButton.ToggleButton">
-        </activity>
-        <activity android:name=".Widgets.CheckedtextView.CheckedTextView">
-        </activity>
-        <activity android:name=".Widgets.TextSwitcher.TextSwitcher">
-        </activity>
-        <activity android:name=".Widgets.MultiAutoCompleteTextView.MultiAutoCompletetextView">
-        </activity>
-        <activity android:name=".Widgets.AutoCompletetextView.AutoCompleteTextView">
-        </activity>
-        <activity android:name=".Widgets.ProgressBar.ProgressActivity">
-        </activity>
-        <activity android:name=".Widgets.Switch.SwitchActivity">
-        </activity>
-        <activity android:name=".Widgets.Spinner.SpinnerActivity">
-        </activity>
-        <activity android:name=".Widgets.RatingBar.RatingBar">
-        </activity>
-        <activity android:name=".Widgets.CheckBox.CheckBox">
-        </activity>
-        <activity android:name=".Widgets.RadioButton.RadioButton">
-        </activity>
-        <activity android:name=".Widgets.Button.Button">
-        </activity>
-        <activity android:name=".Widgets.Widgets">
-        </activity>
-        <activity android:name=".Widgets.EditText.EditText">
-        </activity>
-        <activity android:name=".Widgets.TextView.TextView">
-        </activity>
+        <activity android:name=".Intent.ExplicitIntentActivity.ReturnresultActivity"></activity>
+        <activity android:name=".Intent.ExplicitIntentActivity.SharedElementTransitionActivity" />
+        <activity android:name=".Intent.ExplicitIntentActivity.SecondActivity" />
+        <activity android:name=".Intent.ExplicitIntentActivity.ExplicitActivity" />
+        <activity android:name=".Intent.ImlicitIntentActivity.ImplicitActivity" />
+        <activity android:name=".Intent.IntentActivityDemo" />
+        <activity android:name=".Image.ImageSlider.ImageSliderActivity" />
+        <activity android:name=".Image.ImageSwitcher.ImageswitcherActivity" />
+        <activity android:name=".Image.ImageView.ImageViewActivity" />
+        <activity android:name=".Image.ImageActivity" />
+        <activity android:name=".Image.ImageButton.ImageButtonActivity" />
+        <activity android:name=".AlertDialog.EditTextInAlertDialog.EditTextAlertDialogActivity" />
+        <activity android:name=".AlertDialog.ListViewInAlertDialog.ListViewAlertDialogActivity" />
+        <activity android:name=".AlertDialog.AlertDialogActivity" />
+        <activity android:name=".AlertDialog.SimpleAlertDialog.SimpleAlertDialogActivity" />
+        <activity android:name=".Toast.ColoredToast.ColoredToastActivity" />
+        <activity android:name=".Toast.PositioningToast.PositioningToastActivity" />
+        <activity android:name=".Toast.CustomToast.CustomToastActivity" />
+        <activity android:name=".Toast.SimpleToast.SimpleToastActivity" />
+        <activity android:name=".Toast.ToastActivity" />
+        <activity android:name=".Widgets.Viewtag.ViewTag" />
+        <activity android:name=".Widgets.ScrollView.ScrollView" />
+        <activity android:name=".Widgets.ToggleButton.ToggleButton" />
+        <activity android:name=".Widgets.CheckedtextView.CheckedTextView" />
+        <activity android:name=".Widgets.TextSwitcher.TextSwitcher" />
+        <activity android:name=".Widgets.MultiAutoCompleteTextView.MultiAutoCompletetextView" />
+        <activity android:name=".Widgets.AutoCompletetextView.AutoCompleteTextView" />
+        <activity android:name=".Widgets.ProgressBar.ProgressActivity" />
+        <activity android:name=".Widgets.Switch.SwitchActivity" />
+        <activity android:name=".Widgets.Spinner.SpinnerActivity" />
+        <activity android:name=".Widgets.RatingBar.RatingBar" />
+        <activity android:name=".Widgets.CheckBox.CheckBox" />
+        <activity android:name=".Widgets.RadioButton.RadioButton" />
+        <activity android:name=".Widgets.Button.Button" />
+        <activity android:name=".Widgets.Widgets" />
+        <activity android:name=".Widgets.EditText.EditText" />
+        <activity android:name=".Widgets.TextView.TextView" />
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
