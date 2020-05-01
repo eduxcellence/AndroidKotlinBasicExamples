@@ -51,7 +51,10 @@ class ExplicitActivity : AppCompatActivity() {
         }
 
         explicitThree.setOnClickListener {
-            val intent = Intent(this@ExplicitActivity, ReturnresultActivity::class.java)
+            val intent = Intent(
+                this@ExplicitActivity,
+                ReturnresultActivity::class.java
+            )
             startActivityForResult(intent, RequestCodeForResult)
         }
 
