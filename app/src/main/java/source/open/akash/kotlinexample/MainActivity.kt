@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import source.open.akash.kotlinexample.AlertDialog.AlertDialogActivity
+import source.open.akash.kotlinexample.DateTime.DateTimeActivity
 import source.open.akash.kotlinexample.Image.ImageActivity
 import source.open.akash.kotlinexample.Intent.IntentActivityDemo
 import source.open.akash.kotlinexample.Toast.ToastActivity
@@ -38,6 +39,10 @@ class MainActivity : AppCompatActivity() {
         }
         IntentDemo.setOnClickListener {
             startActivity(Intent(this@MainActivity, IntentActivityDemo::class.java))
+
+        }
+        DateTimeWidgetsDemo.setOnClickListener {
+            startActivity(Intent(this@MainActivity, DateTimeActivity::class.java))
 
         }
 

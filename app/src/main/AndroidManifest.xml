@@ -4,13 +4,13 @@
         package="source.open.akash.kotlinexample">
 
     <dist:module dist:instant="true" />
-    //internet permissions
+
     <uses-permission android:name="android.permission.INTERNET" />
-    //call permissions
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    //permissions required for camera open and capture image
     <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-feature android:name="android.hardware.camera" />
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -20,7 +20,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Intent.ExplicitIntentActivity.ReturnresultActivity"></activity>
+        <activity android:name=".DateTime.DateTimeActivity"></activity>
+        <activity android:name=".Intent.ExplicitIntentActivity.ReturnresultActivity" />
         <activity android:name=".Intent.ExplicitIntentActivity.SharedElementTransitionActivity" />
         <activity android:name=".Intent.ExplicitIntentActivity.SecondActivity" />
         <activity android:name=".Intent.ExplicitIntentActivity.ExplicitActivity" />
