@@ -4,6 +4,14 @@
         package="source.open.akash.kotlinexample">
 
     <dist:module dist:instant="true" />
+    //internet permissions
+    <uses-permission android:name="android.permission.INTERNET" />
+    //call permissions
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    //permissions required for camera open and capture image
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
             android:allowBackup="true"
@@ -18,7 +26,6 @@
         <activity android:name=".Intent.ExplicitIntentActivity.ExplicitActivity" />
         <activity android:name=".Intent.ImlicitIntentActivity.ImplicitActivity" />
         <activity android:name=".Intent.IntentActivityDemo" />
-        <activity android:name=".Image.ImageSlider.ImageSliderActivity" />
         <activity android:name=".Image.ImageSwitcher.ImageswitcherActivity" />
         <activity android:name=".Image.ImageView.ImageViewActivity" />
         <activity android:name=".Image.ImageActivity" />

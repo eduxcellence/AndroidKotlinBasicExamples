@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         tools:context=".Intent.ImlicitIntentActivity.ImplicitActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+            android:id="@+id/implicitOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail" />
+
+    <Button
+            android:id="@+id/implicitTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maps" />
+
+    <Button
+            android:id="@+id/implicitThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera" />
+
+    <Button
+            android:id="@+id/implicitFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Call" />
+
+    <Button
+            android:id="@+id/implicitFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gallery" />
+
+    <ImageView
+            android:id="@+id/imageDemo"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+</LinearLayout>
